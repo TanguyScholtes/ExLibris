@@ -1,0 +1,11 @@
+{
+    "name": "api/flappy",
+    "description": "Flappy Bird API",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Models\\": "models/",
+            "Controllers\\": "controllers/"
+        }
+    }
+}

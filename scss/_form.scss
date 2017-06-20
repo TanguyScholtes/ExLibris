@@ -1,0 +1,46 @@
+/*--- Form styles ---*/
+
+input, textarea{
+    padding: 0.5em 0.75em;
+    width: 100%;
+}
+
+textarea{
+    height: 150px;
+}
+
+input[type="checkbox"]{
+    width: auto;
+    margin-right: 1em;
+}
+
+input[type="submit"]{
+    background-color: $button-background;
+    color: $button-text;
+    border: 1px solid $button-border;
+    padding: 1em 3em;
+    font-family: "Lato", "Open Sans", Verdana, Geneva, sans-serif;
+    font-size: 13px;
+    margin: 1em auto;
+    display: block;
+    width: auto;
+
+    &:hover{
+        background-color: $button-background-hover;
+        color: $button-text-hover;
+    }
+}
+
+label{
+    line-height: 2em;
+    margin-right: 1em;
+}
+
+select{
+    width: 150px;
+}
+
+.form-note{
+    font-size: 10px;
+    font-style: italic;
+}

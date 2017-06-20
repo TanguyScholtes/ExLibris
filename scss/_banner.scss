@@ -1,0 +1,20 @@
+/*--- Banner Styles ---*/
+
+.banner{
+    margin-top: 51px;
+    font-family: "GeosansLight", sans-serif;
+    font-size: 5em;
+}
+
+.site-title{
+    text-align: center;
+    margin: 1.25em auto 0.5em auto;
+}
+
+.banner-link{
+    text-decoration: none;
+    color: $banner-text;
+    max-width: 1090px;
+    margin: 0 auto;
+    font-weight: lighter;
+}

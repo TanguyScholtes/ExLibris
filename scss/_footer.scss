@@ -1,0 +1,16 @@
+/*--- Footer styles ---*/
+
+.footer{
+    font-size: 12px;
+    color: $footer-text;
+    max-width: 1090px;
+    margin: 2em auto;
+}
+
+.source-link{
+    color: $footer-link;
+    text-decoration: none;
+    &:hover{
+        text-decoration: underline;
+    }
+}

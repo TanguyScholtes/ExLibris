@@ -1,0 +1,25 @@
+/*--- General Container Styles ---*/
+
+.main-wrapper{
+    background-color: $container-background;
+    border: 1px solid $container-border;
+    max-width: 1090px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.main-container{
+    border: 1px solid $container-border;
+    padding: 1em;
+}
+
+.main-content{
+    max-width: 760px;
+    position: relative;
+    margin: 0 auto;
+    &:after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+}

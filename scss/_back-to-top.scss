@@ -1,0 +1,27 @@
+/*--- Back-to-top link styles ---*/
+
+.back-to-top{
+    margin: 2em 0 0 0;
+}
+
+.back-to-top__link{
+    color: $footer-link;
+    text-decoration: none;
+
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+#back-to-top{
+    //main and permanent back-to-top link
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: $container-background;
+    border: 1px solid $container-border;
+    z-index:5;
+    padding: 0.5em;
+    text-align: center;
+    width: 10%;
+}

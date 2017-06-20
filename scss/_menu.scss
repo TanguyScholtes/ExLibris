@@ -1,0 +1,31 @@
+/*--- Menu Styles ---*/
+.navigation{
+    border-bottom: 1px solid $menu-text-hover;
+    box-shadow: 0 1px 5px $shadow;
+    vertical-align: middle;
+    background-color: $menu-background;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+.main-navigation{
+    max-width: 1090px;
+    margin: 0 auto;
+}
+
+.main-navigation--link{
+    font-size: 11px;
+    letter-spacing: 1px;
+    line-height: 51px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: $menu-text;
+    text-decoration: none;
+    padding-right: 2em;
+
+    &:hover{
+        color: $menu-text-hover;
+    }
+}

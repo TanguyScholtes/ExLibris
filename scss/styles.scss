@@ -1,0 +1,86 @@
+/*--- Base & Resets ---*/
+@import "normalize.min";    //Normalize
+@import "main.min";         //Cross-Browsers Baseline
+
+/*--- Fonts ---*/
+@font-face {
+	font-family: "GeosansLight";
+	src: url("/fonts/GeosansLight.ttf") format("truetype");
+}
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+/*--- Colors ---*/
+@import "colors";
+
+/*--- General Styles ---*/
+html{
+    background-color: white;
+    background: #fff url( "../img/background.png" ) repeat scroll 0 0;
+}
+
+body{
+    font-family: "Lato", "Open Sans", Verdana, Geneva, sans-serif;
+    font-size: 13px;
+}
+
+ul, ol{
+    padding-left: 1em;
+}
+
+ul li{
+    line-height: 1.5em;
+    span{
+        font-weight: bold;
+        padding-right: 0.25em;
+    }
+}
+
+h1, h2, h3{
+    font-family: "Playfair Display", Georgia, Times, "Times New Roman", serif;
+    font-size: 26px;
+}
+
+h1{
+    margin: 0 0 0.5em 0;
+    font-size: 32px;
+    text-align: center;
+}
+
+h2{
+    margin: 1.5em 0 0.5em 0;
+}
+
+.content-image{
+    margin: 2em auto 2em auto;
+    display: block;
+}
+
+.content-link, .admin-link{
+    color: $link-text;
+    font-family: "Lato", "Open Sans", Verdana, Geneva, sans-serif;
+    line-height: 1.5em;
+
+    &:hover{
+        color: $link-text-hover;
+    }
+}
+
+.content-link{
+    text-decoration: none;
+}
+
+.admin-link{
+    margin: 2em 1em 2em 0;
+    font-size: 13px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/*--- Specific Styles ---*/
+@import "menu";
+@import "banner";
+@import "general-container";
+@import "form";
+@import "footer";
+@import "back-to-top";
